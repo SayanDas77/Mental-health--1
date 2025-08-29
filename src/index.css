@@ -8,26 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 220 30% 98%;
+    --foreground: 220 15% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 15% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 190 85% 45%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 20% 96%;
+    --secondary-foreground: 220 15% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 15% 95%;
+    --muted-foreground: 220 10% 55%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 25 85% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --calm: 180 30% 90%;
+    --calm-foreground: 180 30% 20%;
+    
+    --soothing: 160 40% 85%;
+    --soothing-foreground: 160 40% 25%;
+    
+    --warm: 25 90% 70%;
+    --warm-foreground: 25 20% 15%;
+
+    --gradient-hero: linear-gradient(135deg, hsl(190 85% 55%), hsl(180 70% 65%));
+    --gradient-calm: linear-gradient(180deg, hsl(180 30% 95%), hsl(190 25% 92%));
+    --gradient-warm: linear-gradient(135deg, hsl(25 90% 75%), hsl(35 85% 70%));
+    
+    --shadow-soft: 0 4px 20px -5px hsl(190 50% 40% / 0.15);
+    --shadow-warm: 0 8px 30px -8px hsl(25 70% 50% / 0.2);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
